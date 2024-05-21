@@ -10,6 +10,29 @@ export const navItems: INavData[] = [
       text: 'NEW'
     }
   },
+  ///------------------------------RECETA INICIO
+  {
+    title: true,
+    name: 'indice de Recetas'
+  },
+  {
+    name: 'Recetario',
+    url: '/recetario',
+    iconComponent: { name: 'cil-puzzle' },
+    children: [
+      {
+        name: 'Receta',
+        url: '/recetario/receta',
+        icon: 'nav-icon-bullet'
+      },
+      {
+        name: 'Reportes',
+        url: '/recetario/reportes',
+        icon: 'nav-icon-bullet'
+      },
+    ]
+  },
+  ///------------------------------RECETA FINAL
   {
     title: true,
     name: 'Theme'
