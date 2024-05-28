@@ -19,12 +19,12 @@ export const routes: Routes = [
         loadChildren: () => import('./views/dashboard/routes').then((m) => m.routes)
       },
       {
-        path: 'recetario',
-        loadChildren: () => import('./views/recetarios/routes').then((m) => m.routes)
+        path: 'SISTEMSADEE',
+        loadChildren: () => import('./views/SISTEMSADEE/routes').then((m) => m.routes)
       },
       {
-        path: 'theme',
-        loadChildren: () => import('./views/theme/routes').then((m) => m.routes)
+        path: 'SISTEMSADEE',
+        loadChildren: () => import('./views/SISTEMSADEE/routes').then((m) => m.routes)
       },
       {
         path: 'base',

@@ -13,21 +13,21 @@ export const navItems: INavData[] = [
   ///------------------------------RECETA INICIO
   {
     title: true,
-    name: 'indice de Recetas'
+    name: 'INICIO OPERADOR'
   },
   {
-    name: 'Recetario',
-    url: '/recetario',
+    name: 'OPERADORES',
+    url: '/SISTEMSADEE',
     iconComponent: { name: 'cil-puzzle' },
     children: [
       {
-        name: 'Receta',
-        url: '/recetario/receta',
+        name: 'Operadores',
+        url: '/SISTEMSADEE/listado',
         icon: 'nav-icon-bullet'
       },
       {
         name: 'Reportes',
-        url: '/recetario/reportes',
+        url: '/SISTEMSADEE/reportes', //<--- el nombre debe coincidir con routes.ts path: 'reporte'
         icon: 'nav-icon-bullet'
       },
     ]
